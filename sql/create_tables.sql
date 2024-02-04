@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS books;
 DROP TABLE IF EXISTS authors;
 
--- Create the authors table
+-- Create the authors table first as it has no foreign keys
 
 CREATE TABLE authors (
     author_id TEXT PRIMARY KEY,
